@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-jsontree",
+        "command": "src:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Json Tree",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "src:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

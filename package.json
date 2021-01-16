@@ -1,0 +1,21 @@
+{
+  "name": "src",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/cbuteau/atom-jsontree/issues"
+  },
+  "license": "MIT",
+  "main": "./lib/src",
+  "repository": {
+    "git": "https://github.com/cbuteau/atom-jsontree.git"
+  },
+  "dependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "activationCommands": {
+    "atom-workspace": "src:toggle"
+  }
+}
